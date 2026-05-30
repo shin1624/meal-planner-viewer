@@ -1,23 +1,58 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow">
-  <title>今週の献立</title>
-  <style>
-    :root { color-scheme: light dark; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
-      max-width: 640px; margin: 0 auto; padding: 2rem 1.2rem; line-height: 1.7;
-    }
-    h1 { font-size: 1.4rem; }
-    .note { opacity: 0.7; font-size: 0.95rem; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>今週の献立 — 2026-06-01 の週</title>
+<style>
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, "Hiragino Sans", "Yu Gothic", sans-serif;
+  font-size: 17px; line-height: 1.6; margin: 0;
+  padding: 16px; max-width: 720px; margin-inline: auto;
+  color: #1a1a1a; background: #fafafa;
+}
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.3rem; margin: 28px 0 12px; border-bottom: 2px solid #d35400; padding-bottom: 4px; }
+h3 { font-size: 1.15rem; margin: 18px 0 8px; }
+h4 { font-size: 1.05rem; margin: 14px 0 6px; }
+.subtitle { color: #666; margin: 0 0 12px; }
+.day { background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 12px 16px; margin-bottom: 16px; }
+.recipe { padding: 8px 0; border-top: 1px dashed #eee; }
+.recipe:first-of-type { border-top: none; }
+.role { display: inline-block; background: #d35400; color: #fff; font-size: 0.75rem; padding: 1px 8px; border-radius: 10px; vertical-align: middle; margin-right: 6px; }
+.fish { background: #2980b9; color: #fff; font-size: 0.8rem; padding: 1px 8px; border-radius: 10px; }
+.reuse { color: #8e44ad; font-weight: 600; margin: 4px 0; }
+.hotcook { color: #c0392b; margin: 4px 0; }
+.time { color: #555; margin: 4px 0; font-size: 0.95rem; }
+.toridake { background: #fef9e7; border-left: 4px solid #f1c40f; padding: 6px 10px; margin: 6px 0; border-radius: 4px; }
+ul, ol { margin: 6px 0; padding-left: 22px; }
+.ingredients li { margin: 2px 0; }
+.qty { color: #555; font-weight: 600; }
+.lane { font-size: 0.72rem; padding: 0 6px; border-radius: 8px; margin-left: 4px; }
+.lane-coop { background: #eafaf1; color: #1e8449; }
+.lane-super { background: #fdecea; color: #c0392b; }
+.lane-section { margin-bottom: 12px; }
+.shopping li { margin: 3px 0; }
+.shopping-list { background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 12px 16px; }
+.note { color: #666; font-size: 0.9rem; margin: 0 0 10px; }
+.muted { color: #999; }
+@media (prefers-color-scheme: dark) {
+  body { color: #eee; background: #1c1c1e; }
+  .day, .shopping-list { background: #2c2c2e; border-color: #3a3a3c; }
+  .subtitle, .time, .note { color: #aaa; }
+  .toridake { background: #3a3522; }
+}
+</style>
 </head>
 <body>
-  <h1>🍳 今週の献立</h1>
-  <p class="note">まだ今週の献立は生成されていません。</p>
-  <p class="note">火曜朝の週次バッチが生成すると、ここに3日分の一汁二菜が表示されます。</p>
+<h1>今週の献立</h1>
+<p class="subtitle">2026-06-01 の週 / 主菜・副菜・汁物の3日分</p>
+<section class="menu">
+<h2>📅 献立表</h2>
+<section class="day"><h3>1日目 <span class="fish">🐟 魚の日</span></h3><div class="recipe"><h4><span class="role">主菜</span> ぶり大根</h4><p class="hotcook">🍲 ホットクック使用 / メニュー: ぶり大根 / 設定: 自動 / 予約調理可</p><p class="time">仕込み 15分 / 仕上げ 15分</p><p class="toridake">👶 取り分け: めいちゃん用は味付け前に取り分け、軟らかく刻んで薄味に。</p><ul class="ingredients"><li>ぶり切り身 <span class="qty">3切れ</span> <span class="lane lane-super">スーパー買出し (土日)</span></li><li>大根 <span class="qty">0.5本</span> <span class="lane lane-super">スーパー買出し (土日)</span></li></ul><ol class="steps"><li>ぶり大根 を作る。</li></ol></div><div class="recipe"><h4><span class="role">副菜</span> ほうれん草の胡麻和え</h4><p class="hotcook muted">コンロ・手作業</p><p class="time">仕込み 15分 / 仕上げ 15分</p><p class="toridake">👶 取り分け: めいちゃん用は味付け前に取り分け、軟らかく刻んで薄味に。</p><ul class="ingredients"><li>ほうれん草 <span class="qty">1束</span> <span class="lane lane-super">スーパー買出し (土日)</span></li></ul><ol class="steps"><li>ほうれん草の胡麻和え を作る。</li></ol></div><div class="recipe"><h4><span class="role">汁物</span> 具だくさん味噌汁</h4><p class="hotcook muted">コンロ・手作業</p><p class="time">仕込み 15分 / 仕上げ 15分</p><p class="toridake">👶 取り分け: めいちゃん用は味付け前に取り分け、軟らかく刻んで薄味に。</p><ul class="ingredients"><li>大根 <span class="qty">0.25本</span> <span class="lane lane-super">スーパー買出し (土日)</span></li><li>味噌 <span class="qty">4大さじ</span> <span class="lane lane-coop">コープ宅配 (水曜締切)</span></li></ul><ol class="steps"><li>具だくさん味噌汁 を作る。</li></ol></div></section><section class="day"><h3>2日目 </h3><div class="recipe"><h4><span class="role">主菜</span> 鶏と根菜の筑前煮</h4><p class="hotcook">🍲 ホットクック使用 / メニュー: 鶏と根菜の筑前煮 / 設定: 自動 / 予約調理可</p><p class="time">仕込み 15分 / 仕上げ 15分</p><p class="toridake">👶 取り分け: めいちゃん用は味付け前に取り分け、軟らかく刻んで薄味に。</p><ul class="ingredients"><li>鶏もも肉 <span class="qty">300g</span> <span class="lane lane-super">スーパー買出し (土日)</span></li><li>れんこん <span class="qty">0.5節</span> <span class="lane lane-super">スーパー買出し (土日)</span></li></ul><ol class="steps"><li>鶏と根菜の筑前煮 を作る。</li></ol></div><div class="recipe"><h4><span class="role">副菜</span> かぼちゃの煮物</h4><p class="hotcook muted">コンロ・手作業</p><p class="time">仕込み 15分 / 仕上げ 15分</p><p class="toridake">👶 取り分け: めいちゃん用は味付け前に取り分け、軟らかく刻んで薄味に。</p><ul class="ingredients"><li>かぼちゃ <span class="qty">0.25個</span> <span class="lane lane-super">スーパー買出し (土日)</span></li></ul><ol class="steps"><li>かぼちゃの煮物 を作る。</li></ol></div><div class="recipe"><h4><span class="role">汁物</span> 具だくさん味噌汁(温め直し)</h4><p class="reuse">↻ 前日の「具だくさん味噌汁」の温め直し (当日は新たに作らない)</p><p class="hotcook muted">コンロ・手作業</p><p class="time">仕込み 15分 / 仕上げ 15分</p><p class="muted">(材料なし — 使い回し / 温め直し)</p></div></section><section class="day"><h3>3日目 </h3><div class="recipe"><h4><span class="role">主菜</span> 豚肉と白菜のミルフィーユ蒸し</h4><p class="hotcook muted">コンロ・手作業</p><p class="time">仕込み 15分 / 仕上げ 15分</p><p class="toridake">👶 取り分け: めいちゃん用は味付け前に取り分け、軟らかく刻んで薄味に。</p><ul class="ingredients"><li>豚バラ薄切り <span class="qty">300g</span> <span class="lane lane-super">スーパー買出し (土日)</span></li><li>白菜 <span class="qty">0.25玉</span> <span class="lane lane-super">スーパー買出し (土日)</span></li></ul><ol class="steps"><li>豚肉と白菜のミルフィーユ蒸し を作る。</li></ol></div><div class="recipe"><h4><span class="role">副菜</span> ひじきの煮物</h4><p class="hotcook muted">コンロ・手作業</p><p class="time">仕込み 15分 / 仕上げ 15分</p><p class="toridake">👶 取り分け: めいちゃん用は味付け前に取り分け、軟らかく刻んで薄味に。</p><ul class="ingredients"><li>乾燥ひじき <span class="qty">20g</span> <span class="lane lane-coop">コープ宅配 (水曜締切)</span></li></ul><ol class="steps"><li>ひじきの煮物 を作る。</li></ol></div><div class="recipe"><h4><span class="role">汁物</span> 豆腐とねぎのすまし汁</h4><p class="hotcook muted">コンロ・手作業</p><p class="time">仕込み 15分 / 仕上げ 15分</p><p class="toridake">👶 取り分け: めいちゃん用は味付け前に取り分け、軟らかく刻んで薄味に。</p><ul class="ingredients"><li>絹豆腐 <span class="qty">0.5丁</span> <span class="lane lane-coop">コープ宅配 (水曜締切)</span></li><li>長ねぎ <span class="qty">0.25本</span> <span class="lane lane-super">スーパー買出し (土日)</span></li></ul><ol class="steps"><li>豆腐とねぎのすまし汁 を作る。</li></ol></div></section>
+</section>
+<section class="shopping-list"><h2>🛒 買い物表</h2><p class="note">リマインダーには系統区別なく全品目を追加。ここでコープ / スーパーの買い分けを確認。</p><div class="lane-section lane-coop"><h3>コープ宅配 (水曜締切)</h3><ul class="shopping"><li>味噌 <span class="qty">4大さじ</span></li><li>乾燥ひじき <span class="qty">20g</span></li><li>絹豆腐 <span class="qty">0.5丁</span></li></ul></div><div class="lane-section lane-super"><h3>スーパー買出し (土日)</h3><ul class="shopping"><li>ぶり切り身 <span class="qty">3切れ</span></li><li>大根 <span class="qty">0.75本</span></li><li>ほうれん草 <span class="qty">1束</span></li><li>鶏もも肉 <span class="qty">300g</span></li><li>れんこん <span class="qty">0.5節</span></li><li>かぼちゃ <span class="qty">0.25個</span></li><li>豚バラ薄切り <span class="qty">300g</span></li><li>白菜 <span class="qty">0.25玉</span></li><li>長ねぎ <span class="qty">0.25本</span></li></ul></div></section>
 </body>
 </html>
