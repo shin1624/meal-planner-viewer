@@ -1,6 +1,6 @@
 # meal-planner-viewer
 
-吉川家の週次夕飯献立 (3日分) を表示する公開 viewer。
+わが家の週次夕飯献立 (3日分) を表示する公開 viewer。
 
 - 本体（生成ロジック・機密同居）は private monorepo `life-repo` の `projects/meal-planner/`。
 - この repo は **生成された静的 HTML (`index.html`) だけ** を受け取り GitHub Pages で配信する。
